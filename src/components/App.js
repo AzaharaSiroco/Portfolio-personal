@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Header from "./Header";
 import HeroMain from "./HeroMain";
-
+import Footer from "./Footer";
 import "../stylesheets/App.scss";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HeroMain />
+            <Footer />
           </Route>
         </Switch>
       </div>

@@ -1,5 +1,6 @@
 .header_container {
   background: $blue;
+  height: 10vh;
 }
 
 .header__list__item {
@@ -8,5 +9,10 @@
 
 .aboutme {
   background: $purple;
-  height: 500px;
+  height: 80vh;
+}
+
+.footer_container {
+  background: $yellow;
+  height: 10vh;
 }
