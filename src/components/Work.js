@@ -1,11 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Switch } from "react-router-dom";
+
+import Photography from "./Photography";
+import Desing from "./Design";
 
 function Work() {
   return (
     <>
       <Photography />
-      <Design />
+      <Desing />
     </>
   );
 }

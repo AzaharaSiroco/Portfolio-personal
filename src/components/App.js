@@ -5,18 +5,23 @@ import Header from "./Header";
 import HeroMain from "./HeroMain";
 import Footer from "./Footer";
 import "../stylesheets/App.scss";
+import AboutMe from "./AboutMe";
+import Work from "./Work";
+import Contact from "./Contact";
+import Main from "./Main";
 
 function App() {
   return (
     <>
       <div className="App">
         <Header />
+        <HeroMain />
         <Switch>
-          <Route exact path="/">
-            <HeroMain />
-            <Footer />
+          <Route path="/">
+            <Main />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </>
   );

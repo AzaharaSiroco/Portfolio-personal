@@ -1,8 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function HeroMain() {
-  return <div className="aboutme"></div>;
+  return (
+    <div className="aboutme">
+      <h1>wiiiii</h1>
+    </div>
+  );
 }
 
 export default HeroMain;
