@@ -6,7 +6,6 @@ function Photography() {
   return (
     <section className="photography_container">
       <h1>FOTOGRAFIA</h1>
-      <img src={catimage}></img>
     </section>
   );
 }

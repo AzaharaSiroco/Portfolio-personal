@@ -6,7 +6,7 @@ function AboutMe() {
   return (
     <>
       <section className="about-me">
-        <img alt="ASAJARA" src={Foto}></img>
+        <img className="myphoto" alt="ASAJARA" src={Foto}></img>
         <h1>Azahara</h1>
       </section>
     </>

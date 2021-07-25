@@ -6,39 +6,36 @@ function Contact() {
       <section className="contact">
         <h2 className="contact__title">Contacto</h2>
         <p className="contact__text">
-          ¿Hablamos? 📞. Si crees que mi perfil profesional encaja con lo que
-          buscas o quieres darme feedback sobre mis proyectos, ¡no dudes en
-          contactarme!
+          Si te ha gustado mi portfolio, y crees que podríamos trabajar junt@s,
+          no dudes en contatar conmigo.
         </p>
-        <p className="contact__text">Puedes contactar conmigo al correo:</p>
-        <a className="contact__link" href="mailto:nurahi10@gmail.com">
-          nurahi10@gmail.com
+        <p className="contact__text">Mediante e-mail:</p>
+        <a className="contact__link" href="mailto:azahara1359@gmail.com">
+          azahara1359@gmail.com
         </a>
         <p className="contact__text">o a través de estos enlaces:</p>
         <a
           className="contact__link"
-          href="https://github.com/NurAhissami"
-          alt="GitHub Nur Ahissami"
+          href="https://github.com/AzaharaSiroco"
+          alt="GitHub AzaharaSiroco"
         >
           <i className="fab fa-github-alt"></i>
         </a>
         <a
           className="contact__link"
-          href="https://www.linkedin.com/in/nur-ahissami-1a7b24157/"
-          alt="Linkedin Nur Ahissami"
+          href="https://www.linkedin.com/in/azahara-garcia/"
+          alt="Linkedin AzaharaSiroco"
         >
           <i className="fab fa-linkedin-in"></i>
         </a>
         <a
           className="contact__link"
-          href="https://www.instagram.com/nurahissami.design/"
-          alt="Instagram Nur Ahissami"
+          href="https://www.instagram.com/sirocodeveloper/"
+          alt="Instagram Azahara Siroco"
         >
           <i className="fab fa-instagram-square"></i>
         </a>
-        <p className="contact__text">
-          O si lo prefieres, rellenando este formulario:
-        </p>
+        <p className="contact__text">O rellenando este formulario:</p>
         <div className="containerform">
           <form
             className="containerform__form"
