@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 function HeroMain() {
   return (
     <>
-      <div className="HeroMain_container">
-        <img id="Hero" className="Hero__image" src={HeroImg} alt="Hero image" />
-      </div>
+      <div className="hero_main_container"></div>
     </>
   );
 }

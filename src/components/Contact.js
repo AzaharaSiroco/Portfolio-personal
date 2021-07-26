@@ -13,28 +13,6 @@ function Contact() {
         <a className="contact__link" href="mailto:azahara1359@gmail.com">
           azahara1359@gmail.com
         </a>
-        <p className="contact__text">o a través de estos enlaces:</p>
-        <a
-          className="contact__link"
-          href="https://github.com/AzaharaSiroco"
-          alt="GitHub AzaharaSiroco"
-        >
-          <i className="fab fa-github-alt"></i>
-        </a>
-        <a
-          className="contact__link"
-          href="https://www.linkedin.com/in/azahara-garcia/"
-          alt="Linkedin AzaharaSiroco"
-        >
-          <i className="fab fa-linkedin-in"></i>
-        </a>
-        <a
-          className="contact__link"
-          href="https://www.instagram.com/sirocodeveloper/"
-          alt="Instagram Azahara Siroco"
-        >
-          <i className="fab fa-instagram-square"></i>
-        </a>
         <p className="contact__text">O rellenando este formulario:</p>
         <div className="containerform">
           <form
