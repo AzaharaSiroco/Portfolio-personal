@@ -7,7 +7,10 @@ function Header() {
       <nav>
         <ul className="header__list">
           <Link to="/">
-            <li className="header__list__item"> Home </li>
+            <a href="#Hero" className="header__list__item">
+              {" "}
+              Home{" "}
+            </a>
           </Link>
           <Link to="/AboutMe">
             <li className="header__list__item"> About Me </li>
@@ -16,7 +19,14 @@ function Header() {
             <li className="header__list__item"> Work </li>
           </Link>
           <Link to="/Contact">
-            <li className="header__list__item"> Contact </li>
+            <a
+              href="#contactPage"
+              target="_blank"
+              className="header__list__item"
+            >
+              {" "}
+              Contact{" "}
+            </a>
           </Link>
         </ul>
       </nav>

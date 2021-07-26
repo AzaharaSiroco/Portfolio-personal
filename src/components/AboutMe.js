@@ -5,9 +5,33 @@ import Foto from "../images/itsme.PNG";
 function AboutMe() {
   return (
     <>
-      <section className="about-me">
-        <img className="myphoto" alt="ASAJARA" src={Foto}></img>
-        <h1>Azahara</h1>
+      <section className="aboutme">
+        <h1>¿Quieres saber más sobre mi?</h1>
+        <p className="aboutme__text">
+          Soy publicista, fotógrafa, y me apasiona el diseño. Mi última
+          aventura, la programación web, en los siguientes apartados podrás ver
+          mis proyectos.
+        </p>
+        <div className="aboutme__links">
+          <div>
+            <span>Programación</span>
+            <a>
+              <img className="programacion_img" src={Foto}></img>
+            </a>
+          </div>
+          <div>
+            <span>Fotografía</span>
+            <a>
+              <img className="fotografia_img" src={Foto}></img>
+            </a>
+          </div>
+          <div>
+            <span>Diseño</span>
+            <a>
+              <img className="diseño_img" src={Foto}></img>{" "}
+            </a>
+          </div>
+        </div>
       </section>
     </>
   );

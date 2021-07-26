@@ -1,5 +1,4 @@
 import React from "react";
-import catimage from "../images/gato.png";
 import { Link } from "react-router-dom";
 
 function Photography() {

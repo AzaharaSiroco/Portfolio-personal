@@ -1,6 +1,6 @@
 .header_container {
-  background: $blue;
   height: 5vh;
+  background: $yellow;
 }
 
 .header__list__item {
@@ -15,4 +15,7 @@
 .footer_container {
   background: $yellow;
   height: 10vh;
+}
+.aboutme__links {
+  display: flex;
 }

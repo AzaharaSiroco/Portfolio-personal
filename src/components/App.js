@@ -6,7 +6,6 @@ import HeroMain from "./HeroMain";
 import Footer from "./Footer";
 import "../stylesheets/App.scss";
 import AboutMe from "./AboutMe";
-import Work from "./Work";
 import Contact from "./Contact";
 import Main from "./Main";
 
