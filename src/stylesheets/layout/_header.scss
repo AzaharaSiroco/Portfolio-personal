@@ -1,12 +1,19 @@
 .header_container {
   height: 5vh;
   background: $yellow;
+  font-family: $special-two;
+  text-align: center;
 }
 
 .header__list__item {
   display: inline;
+  color: $purple;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
+.nav__header {
+  padding-top: 4px;
+}
 .aboutme {
   background: $purple;
   height: 80vh;
@@ -15,7 +22,4 @@
 .footer_container {
   background: $yellow;
   height: 10vh;
-}
-.aboutme__links {
-  display: flex;
 }
