@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       <section id="contactPage" className="contact">
-        <h2 className="contact__title">Contacto</h2>
+        <span className="contact__title"> Contacto </span>
         <p className="contact__text">
           Si te ha gustado mi portfolio, y crees que podríamos trabajar junt@s,
           no dudes en contatar conmigo.
