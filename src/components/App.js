@@ -8,6 +8,7 @@ import "../stylesheets/App.scss";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Main from "./Main";
+import Work from "./Work";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/Contact">
               <Contact />
+            </Route>
+            <Route path="/Work">
+              <Work />
             </Route>
           </Switch>
           <Footer />

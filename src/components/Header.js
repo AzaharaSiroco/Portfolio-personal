@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import HeroMain from "./HeroMain";
+import Work from "./Work";
 
 function Header() {
   return (
