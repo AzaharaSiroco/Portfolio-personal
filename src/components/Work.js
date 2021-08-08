@@ -8,8 +8,8 @@ function Work() {
   return (
     <>
       <section className="work_container">
-        <h1>FOTOGRAFIA</h1>
-        <div className="aboutme__links">
+        <h1 className="work_title">Proyectos</h1>
+        <div className="work__links">
           <div>
             <span className="aboutme__title">Programación</span>
             <a>
