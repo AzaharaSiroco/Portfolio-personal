@@ -26,6 +26,12 @@
     ". . ."
     ". . .";
   background-color: $light-green;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
 .programacion_img {
   width: 150px;
