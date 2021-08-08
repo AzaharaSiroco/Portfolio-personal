@@ -8,7 +8,7 @@ import foto_progra from "../images/programacion.jpg";
 function AboutMe() {
   return (
     <>
-      <section className="aboutme">
+      <section className="aboutme" id="AboutMe">
         <h1 className="aboutme__h1">¿Quieres saber más sobre mi?</h1>
         <p className="aboutme__text">
           Soy publicista, fotógrafa, y me apasiona el diseño. Mi última

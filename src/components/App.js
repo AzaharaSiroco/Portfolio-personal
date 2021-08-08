@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Header from "./Header";
 import HeroMain from "./HeroMain";
@@ -11,18 +11,25 @@ import Main from "./Main";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Header />
-        <HeroMain />
-        <Switch>
-          <Route path="/">
-            <Main />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
-    </>
+    <Router>
+      <>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <HeroMain />
+            </Route>
+            <Route path="/AboutMe">
+              <AboutMe />
+            </Route>
+            <Route path="/Contact">
+              <Contact />
+            </Route>
+          </Switch>
+          <Footer />
+        </div>
+      </>
+    </Router>
   );
 }
 
