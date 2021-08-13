@@ -11,19 +11,19 @@ function Work() {
         <h1 className="work_title">Proyectos</h1>
         <div className="work__links">
           <div>
-            <span className="aboutme__title">Programación</span>
+            <span className="work__title">Programación</span>
             <a>
               <img className="programacion_img" src={foto_progra}></img>
             </a>
           </div>
           <div>
-            <span className="aboutme__title">Fotografía</span>
+            <span className="work__title">Fotografía</span>
             <a>
               <img className="fotografia_img" src={foto_foto}></img>
             </a>
           </div>
           <div>
-            <span className="aboutme__title">Diseño</span>
+            <span className="work__title">Diseño</span>
             <a>
               <img className="diseño_img" src={foto_design}></img>{" "}
             </a>

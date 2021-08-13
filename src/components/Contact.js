@@ -7,7 +7,7 @@ function Contact() {
         <span className="contact__title"> Contacto </span>
         <p className="contact__text">
           Si te ha gustado mi portfolio, y crees que podríamos trabajar junt@s,
-          no dudes en contatar conmigo.
+          no dudes en contactar conmigo.
         </p>
         <p className="contact__text">Mediante e-mail:</p>
         <a className="contact__link" href="mailto:azahara1359@gmail.com">

@@ -9,9 +9,10 @@ function AboutMe() {
         <h1 className="aboutme__h1">¿Quieres saber más sobre mi?</h1>
         <p className="aboutme__text">
           Soy publicista, fotógrafa, y me apasiona el diseño. Mi última
-          aventura, la programación web, en los siguientes apartados podrás ver
-          mis proyectos.
+          aventura, la programación web, ¿Quieres saber más sobre mi? Pulsa el
+          botón, y continúa averiguando.
         </p>
+        <button className="aboutme__button">Enséñame más</button>
       </section>
     </>
   );

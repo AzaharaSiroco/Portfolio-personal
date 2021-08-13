@@ -1,11 +1,20 @@
 .contact {
-  background-color: $blue;
+  background-color: $light-green;
   color: whitesmoke;
   height: 100vh;
   padding-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include mobile {
+    height: 95vh;
+    width: 100vw;
+    background-position: center;
+  }
+  @include tablet {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 
 .contact__title {
@@ -13,6 +22,7 @@
   padding-top: 50px;
   font-family: $special-one;
   font-size: 50px;
+  color: $red;
 }
 .contact__text {
   margin-top: 40px;

@@ -1,6 +1,15 @@
 .aboutme {
   align-content: space-between;
   height: 100vh;
+  @include mobile {
+    height: 95vh;
+    width: 100vw;
+    background-position: center;
+  }
+  @include tablet {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 .aboutme__h1 {
   text-align: center;
@@ -16,9 +25,9 @@
   text-align: center;
   color: whitesmoke;
 }
-
-.aboutme__title {
-  font-family: $special-one;
-  color: whitesmoke;
-  margin-left: 20px;
+.aboutme__button {
+  color: $light-yellow;
+  background-color: $purple;
+  border-radius: 8px;
+  border-color: $light-yellow;
 }

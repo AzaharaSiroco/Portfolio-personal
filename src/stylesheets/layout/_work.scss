@@ -1,7 +1,16 @@
 .work_container {
-  background-color: $light-green;
+  background-color: $blue;
   align-content: space-between;
   height: 100vh;
+  @include mobile {
+    height: 95vh;
+    width: 100vw;
+    background-position: center;
+  }
+  @include tablet {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 .work_title {
   text-align: center;
@@ -9,6 +18,10 @@
   font-family: $special-one;
   font-size: 50px;
   color: $brown;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
 }
 .work__links {
   margin-top: 40px;
@@ -20,12 +33,26 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    ". . .";
-  background-color: $light-green;
+  gap: 30px 30px;
+  background-color: $blue;
+
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.work__title {
+  font-family: $special-one;
+  color: whitesmoke;
+  font-size: 25px;
+  color: whitesmoke;
+  align-content: center;
 }
 .programacion_img {
   width: 150px;
