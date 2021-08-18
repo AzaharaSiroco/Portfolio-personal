@@ -1,7 +1,10 @@
 .footer_container {
+  width: 100vw;
   font-family: $special-two;
   display: flex;
   align-items: center;
   justify-content: center;
   color: $purple;
+  background: $yellow;
+  height: 10vh;
 }

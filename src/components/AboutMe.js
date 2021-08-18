@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import Foto from "../images/itsme.PNG";
 
 function AboutMe() {
+  {
+    /* const aboutme__button = () => {*/
+  }
+
   return (
     <>
       <section className="aboutme" id="AboutMe">
