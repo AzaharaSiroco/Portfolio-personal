@@ -1,7 +1,6 @@
 import React from "react";
 
 import AboutMe from "./AboutMe";
-import HeroMain from "./HeroMain";
 import Contact from "./Contact";
 
 function Main() {

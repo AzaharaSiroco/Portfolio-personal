@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import foto_foto from "../images/fotografia.jpg";
 import foto_design from "../images/diseño.jpg";
 import foto_progra from "../images/programacion.jpg";
-import Programming from "../components/Programming";
 
 function Work() {
   return (
@@ -11,27 +10,39 @@ function Work() {
       <section className="work_container">
         <h1 className="work_title">Proyectos</h1>
         <div className="work__links">
-          <div onClick>
+          <div>
             <span className="work__title">Programación</span>
-            <a>
+            <a href="Work/Programming">
               <Link to="Programming">
-                <img className="programacion_img" src={foto_progra}></img>
+                <img
+                  alt="programming"
+                  className="programacion_img"
+                  src={foto_progra}
+                ></img>
               </Link>
             </a>
           </div>
           <div>
             <span className="work__title">Fotografía</span>
-            <a>
+            <a href="Work/Photography">
               <Link to="Photography">
-                <img className="fotografia_img" src={foto_foto}></img>
+                <img
+                  alt="photography"
+                  className="fotografia_img"
+                  src={foto_foto}
+                ></img>
               </Link>
             </a>
           </div>
           <div>
             <span className="work__title">Diseño</span>
-            <a>
+            <a href="Work/Design">
               <Link to="Design">
-                <img className="diseño_img" src={foto_design}></img>{" "}
+                <img
+                  alt="design"
+                  className="diseño_img"
+                  src={foto_design}
+                ></img>{" "}
               </Link>
             </a>
           </div>

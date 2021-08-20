@@ -7,8 +7,10 @@ import Footer from "./Footer";
 import "../stylesheets/App.scss";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import Main from "./Main";
 import Work from "./Work";
+import Photography from "./Photography";
+import Programming from "./Programming";
+import Design from "./Design";
 
 function App() {
   return (
@@ -28,6 +30,15 @@ function App() {
             </Route>
             <Route path="/Work">
               <Work />
+            </Route>
+            <Route path="/Photography">
+              <Photography />
+            </Route>
+            <Route path="/Programming">
+              <Programming />
+            </Route>
+            <Route path="/Design">
+              <Design />
             </Route>
           </Switch>
           <Footer />

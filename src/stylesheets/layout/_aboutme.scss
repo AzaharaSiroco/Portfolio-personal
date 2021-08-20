@@ -5,6 +5,10 @@
     height: 95vh;
     width: 100vw;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   @include tablet {
     height: 100vh;
@@ -30,4 +34,12 @@
   background-color: $purple;
   border-radius: 8px;
   border-color: $light-yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.handleFrase {
+  font-size: 20px;
+  color: black;
+  z-index: 3;
 }

@@ -1,12 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Foto from "../images/itsme.PNG";
+
+const handleclick = () => {
+  const isClicked = true;
+  if (isClicked) {
+    return (
+      <>
+        <p className="handleFrase"> Hola, hola </p>;
+      </>
+    );
+  }
+};
 
 function AboutMe() {
-  {
-    /* const aboutme__button = () => {*/
-  }
-
   return (
     <>
       <section className="aboutme" id="AboutMe">
@@ -16,10 +21,12 @@ function AboutMe() {
           aventura, la programación web, ¿Quieres saber más sobre mi? Pulsa el
           botón, y continúa averiguando.
         </p>
-        <button className="aboutme__button">Enséñame más</button>
+        <button onClick={handleclick} className="aboutme__button">
+          Enséñame más
+        </button>
       </section>
     </>
   );
 }
-
+console.log("handleclick", handleclick);
 export default AboutMe;

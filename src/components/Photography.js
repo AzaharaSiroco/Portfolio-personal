@@ -1,11 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Photography() {
   return (
-    <section className="photography_container">
-      <h1>FOTOGRAFIA</h1>
-    </section>
+    <>
+      <div className="photography_container">
+        <section className="photography_container">
+          <h1 className="photography_title">FOTOGRAFIA</h1>
+        </section>
+      </div>
+    </>
   );
 }
 
