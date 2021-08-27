@@ -1,17 +1,12 @@
-import React from "react";
-
-const handleclick = () => {
-  const isClicked = true;
-  if (isClicked) {
-    return (
-      <>
-        <p className="handleFrase"> Hola, hola </p>;
-      </>
-    );
-  }
-};
+import React, { useEffect } from "react";
+import aboutme from "../data/aboutme.json";
 
 function AboutMe() {
+  const handleclick = () => {
+    const number = 0 + Math.floor(Math.random() * (aboutme.length - 0));
+    console.log(number);
+  };
+
   return (
     <>
       <section className="aboutme" id="AboutMe">
@@ -28,5 +23,5 @@ function AboutMe() {
     </>
   );
 }
-console.log("handleclick", handleclick);
+
 export default AboutMe;
