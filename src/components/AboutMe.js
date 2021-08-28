@@ -1,10 +1,18 @@
 import React, { useEffect } from "react";
-import aboutme from "../data/aboutme.json";
+import data from "../data/aboutme.json";
 
 function AboutMe() {
   const handleclick = () => {
-    const number = 0 + Math.floor(Math.random() * (aboutme.length - 0));
+    const number = 0 + Math.floor(Math.random() * data.length);
     console.log(number);
+
+    const random = data[number];
+    console.log(random);
+
+    const aboutme = data.map((aboutme) => {
+      return <li key={aboutme.id} description={aboutme.description}></li>;
+    });
+    console.log(aboutme.description);
   };
 
   return (
