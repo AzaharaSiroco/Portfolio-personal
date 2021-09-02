@@ -12,6 +12,11 @@ import Photography from "./Photography";
 import Programming from "./Programming";
 import Design from "./Design";
 
+import aboutme from "../data/aboutme.json";
+import designdata from "../data/designdata.json";
+import programmingdata from "../data/programmingdata.json";
+import photographydata from "../data/photographydata.json";
+
 function App() {
   return (
     <Router>

@@ -9,10 +9,10 @@ function AboutMe() {
     const random = data[number];
     console.log(random);
 
-    const aboutme = data.map((aboutme) => {
-      return <li key={aboutme.id} description={aboutme.description}></li>;
+    const phrases = data.map((phrase) => {
+      const newphrase = parseInt(phrase.id);
+      console.log(newphrase);
     });
-    console.log(aboutme.description);
   };
 
   return (
