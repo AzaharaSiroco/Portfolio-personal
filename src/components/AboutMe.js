@@ -1,18 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import data from "../data/aboutme.json";
 
 function AboutMe() {
+  const [phrase, setPhrase] = useState("");
   const handleclick = () => {
     const number = 0 + Math.floor(Math.random() * data.length);
     console.log(number);
 
-    const random = data[number];
-    console.log(random);
-
-    const phrases = data.map((phrase) => {
-      const newphrase = parseInt(phrase.id);
-      console.log(newphrase);
-    });
+    const random_phrase = data[number];
+    setPhrase(random_phrase.description);
   };
 
   return (
@@ -27,6 +23,7 @@ function AboutMe() {
         <button onClick={handleclick} className="aboutme__button">
           Enséñame más
         </button>
+        <p className="aboutme__h1">{phrase}</p>
       </section>
     </>
   );
