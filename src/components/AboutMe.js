@@ -3,10 +3,10 @@ import data from "../data/aboutme.json";
 
 function AboutMe() {
   const [phrase, setPhrase] = useState("");
+
   const handleclick = () => {
     const number = 0 + Math.floor(Math.random() * data.length);
     console.log(number);
-
     const random_phrase = data[number];
     setPhrase(random_phrase.description);
   };
