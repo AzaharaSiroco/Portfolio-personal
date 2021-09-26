@@ -2,6 +2,16 @@
   color: aqua;
 }
 .photography_container {
-  background-color: $blue;
-  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.fotografias {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
 }
